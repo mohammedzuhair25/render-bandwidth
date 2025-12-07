@@ -1,0 +1,15 @@
+{
+  "name": "my-render-app",
+  "version": "1.0.0",
+  "description": "Render bandwidth dashboard",
+  "main": "index.js",
+  "scripts": {
+    "install-render-sdk": "npx api install \"@render-api/v1.0#1yyg84k79mi9d7sxc\" --yes",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@api/render-api": "file:.api/apis/render-api",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
